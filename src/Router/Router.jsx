@@ -6,16 +6,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <div>Hello world!</div>,
-    children: [
-      {
-        path: "/messenger/login",
-        element: <Login />,
-      },
-      {
-        path: "messenger/register",
-        element: <Register />,
-      },
-    ],
+  },
+  {
+    path: "/messenger/login",
+    element: <Login />,
+  },
+  {
+    path: "messenger/register",
+    element: <Register />,
   },
 ]);
 
